@@ -84,7 +84,6 @@ int main(int argc, char** argv)
             cv::Mat frame;
             captures[i].retrieve(frame);
             if(frame.empty()){
-                cv::waitKey(50);
                 break;
             }
             cv::imshow(windows[i], frame);

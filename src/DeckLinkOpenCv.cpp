@@ -20,6 +20,7 @@
 
 #include <opencv2/core/core.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
+#include "opencv2/imgproc/imgproc_c.h"    // C
 
 #include "ComPtr.h"
 #include "DeckLinkOpenCv.h"

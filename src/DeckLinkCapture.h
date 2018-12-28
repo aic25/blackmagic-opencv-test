@@ -22,6 +22,7 @@
 #include <boost/config.hpp>
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
+#include "opencv2/highgui/highgui_c.h"    // C
 
 #include <DeckLinkAPI.h>
 
